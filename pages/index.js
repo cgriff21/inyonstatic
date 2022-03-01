@@ -15,7 +15,7 @@ class Index extends Component {
             <> 
                 <Navbar />
                 <Banner />
-                <AboutArea />
+                <AboutArea/>
                 <FeaturedServices />
                 {/* <OurServices /> */}
                 <OurFeaturesTab />

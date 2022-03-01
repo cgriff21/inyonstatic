@@ -4,7 +4,7 @@ class AboutArea extends Component {
     render() {
         return (
             <>
-                <section className="about-area ptb-100">
+                <section className="about-area ptb-100" id='about'>
                     <div className="container">
                     <div className="overview-box">
                             <div className="overview-content">

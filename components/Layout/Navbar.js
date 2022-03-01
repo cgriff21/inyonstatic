@@ -95,13 +95,13 @@ class Navbar extends Component {
                                         </li>
   
                                         <li className="nav-item">
-                                            <Link href="/about" activeClassName="active">
+                                            <Link href="/#about" activeClassName="active">
                                                 <a className="nav-link">About</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/" activeClassName="active">
+                                            <Link href="/">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Services <i className="fas fa-chevron-down"></i>
                                                 </a>
