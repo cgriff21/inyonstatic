@@ -109,9 +109,10 @@ class Navbar extends Component {
                                             
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="/staffing" activeClassName="active">
-                                                        <a className="nav-link">Staffing</a>
-                                                    </Link>
+                                                    <a className="nav-link" href="https://isgstaffing.net/">Staffing</a>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <a className="nav-link" href="https://pdf.ac/8CBht">Employee Forms</a>
                                                 </li>
                                             </ul>
                                         </li>

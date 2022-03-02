@@ -64,9 +64,10 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/staffing">
-                                                <a>Staffing</a>
-                                            </Link>
+                                            <a href="https://isgstaffing.net/">Staffing</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://pdf.ac/8CBht">Employee Forms</a>
                                         </li>
                                         <li>
                                             <Link href="/contact">
