@@ -13,7 +13,7 @@ class Banner extends Component {
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-banner-content">
                                         <span className="sub-title">Welcome to </span>
-                                        <h1>Inyon Solutions Group</h1>
+                                        <h1>Inyon Solutions Global</h1>
                                         <p>Inyon Solutions Global (ISG) is an economic development company transforming communities worldwide by creating innovative business solutions to social challenges. </p>
 
                                         <div className="btn-box">
