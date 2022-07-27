@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Head from 'next/head'
+
 
 class Error extends Component {
     render() {
         return (
             <>
+            <Head>
+               <title>Inyon Solutions</title>
+               <link rel="icon" href="/favicon.ico" />
+            </Head>
                 <section className="error-area">
                     <div className="d-table">
                         <div className="d-table-cell">

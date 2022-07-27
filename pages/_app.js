@@ -44,7 +44,7 @@ export default withRedux(initStore)(
                 <>
                     <Head>
                         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                        <title>Inyon Solutions Group</title>
+                        <title>Inyon Solutions</title>
                     </Head>
 
                     <Provider store={store}>

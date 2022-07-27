@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Head from 'next/head'
 import Navbar from '../components/Layout/Navbar';
 import PageHeader from '../components/Common/PageHeader';
 import ContactForm from '../components/Contact/ContactForm';
@@ -9,6 +10,10 @@ class Contact extends Component {
     render() {
         return (
             <>
+            <Head>
+               <title>Inyon Solutions</title>
+               <link rel="icon" href="/favicon.ico" />
+            </Head>
                 <Navbar />
 
                 <PageHeader 
