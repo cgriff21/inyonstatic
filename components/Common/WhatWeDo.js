@@ -16,7 +16,7 @@ export default function WhatWeDo() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-services-box">
                                     <div className="icon">
-                                        <i className="flaticon-digital-marketing"></i>
+                                        <i className="icon-people"></i>
                                     </div>
                                     <h3>
                                             <a>People And Organizational Performance </a>
@@ -35,7 +35,7 @@ export default function WhatWeDo() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-services-box">
                                     <div className="icon bg-00aeff">
-                                        <i className="flaticon-research"></i>
+                                        <i className="icon-grant"></i>
                                     </div>
                                     <h3>
                                             <a>Grant/Proposal Writing And Administration</a>
@@ -47,7 +47,7 @@ export default function WhatWeDo() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-services-box">
                                     <div className="icon bg-cdf1d8">
-                                        <i className="flaticon-analysis"></i>
+                                        <i className="icon-compliance"></i>
                                     </div>
                                     <h3>
                                             <a>Compliance And Quality Assurance</a>
@@ -59,7 +59,7 @@ export default function WhatWeDo() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-services-box">
                                     <div className="icon bg-f78acb">
-                                        <i className="flaticon-analytics"></i>
+                                        <i className="icon-technology-1"></i>
                                     </div>
                                     <h3>
                                             <a>Technology And Automation </a>
@@ -70,7 +70,7 @@ export default function WhatWeDo() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-services-box">
                                     <div className="icon bg-c679e3">
-                                        <i className="flaticon-mail"></i>
+                                        <i className="icon-project-1"></i>
                                     </div>
                                     <h3>
                                             <a>Project Management</a>

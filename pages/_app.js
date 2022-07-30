@@ -2,6 +2,7 @@ import '../assets/css/bootstrap.min.css';
 import '../assets/css/fontawesome.min.css';
 import '../assets/css/animate.min.css';
 import '../assets/css/flaticon.css';
+import '../assets/css/iconmoon.css';
 import '../assets/css/boxicons.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 import '../node_modules/react-modal-video/scss/modal-video.scss';

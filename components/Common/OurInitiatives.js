@@ -15,7 +15,7 @@ export default function OurInitiatives() {
                             <div className="col-lg-6 col-sm-6 col-md-6">
                                 <div className="single-featured-box">
                                     <div className="icon">
-                                        <i className="flaticon-analytics"></i>
+                                        <i className="icon-inequaltiy"></i>
                                     </div>
 
                                     <h3>Economic Inequality</h3>
@@ -27,7 +27,7 @@ export default function OurInitiatives() {
                             <div className="col-lg-6 col-sm-6 col-md-6">
                                 <div className="single-featured-box">
                                     <div className="icon color-facd60">
-                                        <i className="flaticon-mail"></i>
+                                        <i className="icon-housing"></i>
                                     </div>
 
                                     <h3>Housing Affordability</h3>
@@ -39,7 +39,7 @@ export default function OurInitiatives() {
                             <div className="col-lg-6 col-sm-6 col-md-6">
                                 <div className="single-featured-box">
                                     <div className="icon color-1ac0c6">
-                                        <i className="flaticon-research"></i>
+                                        <i className="icon-wellness"></i>
                                     </div>
 
                                     <h3>Healthcare and wellness</h3>
@@ -51,7 +51,7 @@ export default function OurInitiatives() {
                             <div className="col-lg-6 col-sm-6 col-md-6">
                                 <div className="single-featured-box">
                                     <div className="icon color-1ac0c6">
-                                        <i className="flaticon-research"></i>
+                                        <i className="icon-environment"></i>
                                     </div>
 
                                     <h3>Environmental Sustainability</h3>

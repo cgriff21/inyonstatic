@@ -15,37 +15,37 @@ export default function OurIndustries() {
                             <ul className="tabs">
                                 <li>
                                     <div className="bg-fa7070">
-                                        <i className="flaticon-achievement"></i>
+                                        <i className="icon-education"></i>
                                         <span>Education</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="bg-00aeff">
-                                        <i className="flaticon-architecture"></i>
+                                        <i className="flaticon-analytics"></i>
                                         <span>Financial Services</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="bg-c679e3">
-                                        <i className="flaticon-digital-marketing"></i>
+                                        <i className="icon-healthcare"></i>
                                         <span>Healthcare</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="bg-eb6b3d">
-                                        <i className="flaticon-analytics"></i>
+                                        <i className="icon-public"></i>
                                         <span>Public/Social Sector</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div onClick={(e) => e.preventDefault()}>
-                                        <i className="flaticon-data"></i>
+                                        <i className="icon-estate"></i>
                                         <span>Real Estate</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="bg-f78acb">
-                                        <i className="flaticon-research"></i>
+                                        <i className="flaticon-data"></i>
                                         <span>Technology</span>
                                     </div>
                                 </li>
