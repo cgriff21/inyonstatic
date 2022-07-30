@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Head from 'next/head'
 import Navbar from '../components/Layout/Navbar';
 import PageHeader from '../components/Common/PageHeader';
@@ -6,8 +6,7 @@ import ContactForm from '../components/Contact/ContactForm';
 import ContactInfo from '../components/Contact/ContactInfo';
 import Footer from '../components/Layout/Footer';
 
-class Contact extends Component {
-    render() {
+export default function Contact() {
         return (
             <>
             <Head>
@@ -31,6 +30,3 @@ class Contact extends Component {
             </>
         );
     }
-}
-
-export default Contact;

@@ -1,97 +1,42 @@
 import React from 'react'
-import 'isomorphic-fetch'
+import axios from 'axios'
+import { ToastContainer, toast } from 'react-toastify';
 
-export default class ContactForm extends React.Component {
 
-    state = {
-        submitting: false,
-        submitted: false,
-        buttonState: '',
-        formFields: {
-            name: '',
-            email: '',
-            subject: '',
-            phone: '',
-            text: ''
-        }
-    };
+export default function ContactForm() {
 
-    onSubmit = (e) => {
+    const onSubmit = (e) => {
         e.preventDefault();
-        const data = this.state.formFields;
-        fetch('/api/contact', {
-            method: 'post',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
+        return axios
+        .post(`/api/contact`, {
+                name: e.target.name.value,
+                email: e.target.email.value,
+                phone: e.target.phone.value,
+                subject: e.target.subject.value,
+                message: e.target.message.value
         }).then(res => {
-            res.status === 200 ? this.setState({ submitted: true }) : ''
-            let formFields = Object.assign({}, this.state.formFields);
-            formFields.name = '';
-            formFields.email = '';
-            formFields.phone = '';
-            formFields.subject = '';
-            formFields.text = '';
-            this.setState({formFields});
+            res.status === 200 ? toast.success('Your message has been sumbitted', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            }) : ''
+
         });
     }
 
-    nameChangeHandler = (e) => {
-        let formFields = Object.assign({}, this.state.formFields);
-        formFields.name = e.target.value;
-        this.setState({formFields});
-    }
-
-    emailChangeHandler = (e) => {
-        let formFields = Object.assign({}, this.state.formFields);
-        formFields.email = e.target.value;
-        this.setState({formFields});
-    }
-
-    phoneChangeHandler = (e) => {
-        let formFields = Object.assign({}, this.state.formFields);
-        formFields.phone = e.target.value;
-        this.setState({formFields});
-    }
-
-    subjectChangeHandler = (e) => {
-        let formFields = Object.assign({}, this.state.formFields);
-        formFields.subject = e.target.value;
-        this.setState({formFields});
-    }
-
-    textChangeHandler = (e) => {
-        let formFields = Object.assign({}, this.state.formFields);
-        formFields.text = e.target.value;
-        this.setState({formFields});
-    }
-
-    onHideSuccess = () => {
-        this.setState({submitted: false});
-    }
-
-    successMessage = () => {
-        if (this.state.submitted){
-            return (
-                <div className="alert alert-success alert-dismissible mt-4">
-                    <strong>Thank you!</strong> Your message is send to the owner
-                    <button onClick={this.onHideSuccess} type="button" className="btn-close"></button>
-                </div>
-            );
-        }
-    }
-
-    render() {
         return (
             <>
                 <section className="contact-area ptb-100">
+                <ToastContainer />
                     <div className="container">
                         <div className="section-title">
                             <span className="sub-title">Contact Us</span>
-                            <h2>Drop us Message</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h2>Send us a Message</h2>
+                            <p>An Inyon team member will be in touch with you shortly.</p>
                         </div>
 
                         <div className="row align-items-center">
@@ -105,7 +50,7 @@ export default class ContactForm extends React.Component {
                                 <div className="contact-form">
                                     <form 
                                         id="contactForm" 
-                                        onSubmit={this.onSubmit}
+                                        onSubmit={onSubmit}
                                     >
                                         <div className="row">
                                             <div className="col-lg-6 col-md-12">
@@ -116,8 +61,8 @@ export default class ContactForm extends React.Component {
                                                         className="form-control" 
                                                         placeholder="Name" 
                                                         required
-                                                        value={this.state.formFields.name}
-                                                        onChange={this.nameChangeHandler}
+                                                        id="name"  
+                                                        aria-label="name"
                                                     />
                                                 </div>
                                             </div>
@@ -130,8 +75,8 @@ export default class ContactForm extends React.Component {
                                                         className="form-control" 
                                                         required 
                                                         placeholder="Email" 
-                                                        value={this.state.formFields.email}
-                                                        onChange={this.emailChangeHandler}
+                                                        id="email"  
+                                                        aria-label="email"
                                                     />
                                                 </div>
                                             </div>
@@ -143,9 +88,8 @@ export default class ContactForm extends React.Component {
                                                         name="phone" 
                                                         className="form-control" 
                                                         placeholder="Phone" 
-                                                        required
-                                                        value={this.state.formFields.phone}
-                                                        onChange={this.phoneChangeHandler}
+                                                        id="phone"  
+                                                        aria-label="phone"
                                                     />
                                                 </div>
                                             </div>
@@ -157,9 +101,8 @@ export default class ContactForm extends React.Component {
                                                         name="subject"
                                                         className="form-control" 
                                                         placeholder="Subject" 
-                                                        required
-                                                        value={this.state.formFields.subject}
-                                                        onChange={this.subjectChangeHandler}
+                                                        id="subject"  
+                                                        aria-label="subject"
                                                     />
                                                 </div>
                                             </div>
@@ -172,11 +115,9 @@ export default class ContactForm extends React.Component {
                                                         id="message" 
                                                         cols="30" 
                                                         required
-                                                        rows="5" 
-                                                        required 
+                                                        rows="5"  
                                                         placeholder="Your Message" 
-                                                        value={this.state.formFields.text}
-                                                        onChange={this.textChangeHandler}
+                                                        aria-label="message"
                                                     />
                                                 </div>
                                             </div>
@@ -187,8 +128,6 @@ export default class ContactForm extends React.Component {
                                                 </button>
                                             </div>
                                         </div>
-
-                                        {this.successMessage()}
                                     </form>
                                 </div>
                             </div>
@@ -198,4 +137,3 @@ export default class ContactForm extends React.Component {
             </>
         )
     }
-}

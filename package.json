@@ -1,15 +1,15 @@
 {
-    "name": "taiker",
-    "version": "3.6.0",
+    "name": "inyonsolutions",
+    "version": "1.0.0",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start"
     },
-    "author": "EnvyTheme.com",
+    "author": "Chance",
     "license": "ISC",
-    "description": "Taiker - React Next IT Startups & SEO Agency Template",
+    "description": "Static site Inyon Solutions",
     "dependencies": {
         "@babel/runtime-corejs2": "^7.16.3",
         "axios": "^0.27.2",

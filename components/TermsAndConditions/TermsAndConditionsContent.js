@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class TermsAndConditionsContent extends Component {
-    render() {
+export default function TermsAndConditionsContent() {
+
         return (
             <div className="main-content ptb-80">
                 <div className="container">
@@ -26,6 +26,3 @@ class TermsAndConditionsContent extends Component {
             </div>
         );
     }
-}
-
-export default TermsAndConditionsContent;

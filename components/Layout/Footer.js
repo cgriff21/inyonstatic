@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Link from 'next/link';
 
-class Footer extends Component {
-    render() {
+export default function Footer() {
+
         let currentYear = new Date().getFullYear();
         return (
             <>
@@ -67,12 +67,15 @@ class Footer extends Component {
                                             <a href="https://isgstaffing.net/">Staffing</a>
                                         </li>
                                         <li>
-                                            <a href="https://pdf.ac/8CBht">Employee Forms</a>
+                                            <a href="https://login.wheniwork.com/">Employee Schedule</a>
                                         </li>
                                         <li>
                                             <Link href="/contact">
                                                 <a>Contact</a>
                                             </Link>
+                                        </li>
+                                        <li>
+                                            <a href="https://pdf.ac/8CBht">Employee Forms</a>
                                         </li>
                                         <li>
                                             <Link href="/privacy-policy">
@@ -118,6 +121,3 @@ class Footer extends Component {
             </>
         );
     }
-}
-
-export default Footer;

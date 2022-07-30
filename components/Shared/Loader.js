@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Loader extends Component {
-    render() {
+export default function Loader(props) {
+
         return (
             <>
-                <div className={`preloader ${this.props.loading ? '' : 'preloader-deactivate'}`}>
+                <div className={`preloader ${props.loading ? '' : 'preloader-deactivate'}`}>
                     <div className="loader">
                         <div className="shadow"></div>
                         <div className="box"></div>
@@ -13,6 +13,3 @@ class Loader extends Component {
             </>
         );
     }
-}
-
-export default Loader;

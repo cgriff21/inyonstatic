@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ContactInfo extends Component {
-    render() {
+export default function ContactInfo() {
+
         return (
             <section className="pt-100 pb-70">
                 <div className="container">
@@ -42,6 +42,3 @@ class ContactInfo extends Component {
             </section>
         );
     }
-}
-
-export default ContactInfo;

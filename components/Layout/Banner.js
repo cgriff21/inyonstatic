@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
 
-class Banner extends Component {
-    render() {
+export default function Banner() {
+
         return (
             <div className="hero-banner banner-bg1">
                 <div className="d-table">
@@ -28,14 +28,6 @@ class Banner extends Component {
                                     <div className="hero-banner-image">
                                         <ScrollAnimation animateIn="fadeInDown" delay={50} animateOnce={true}>
                                             <img src="/img/banner/main.png" alt="main" />
-                                        </ScrollAnimation>
- 
-                                        <ScrollAnimation animateIn="fadeInUp" delay={50} animateOnce={true}>
-                                            <img src="/img/banner/banner-shape1.png" alt="banner-shape1" />
-                                        </ScrollAnimation>
- 
-                                        <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce={true}>
-                                            <img src="/img/banner/banner-shape2.png" alt="carpet" />
                                         </ScrollAnimation>
                                     </div>
                                 </div>
@@ -80,6 +72,3 @@ class Banner extends Component {
             </div>
         );
     }
-}
-
-export default Banner;

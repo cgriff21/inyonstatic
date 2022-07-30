@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Link from 'next/link';
 
-class PageHeader extends Component {
-    render() {
+export default function PageHeader(props) {
         
-        let { pageTitle, breadcrumbTextOne, breadcrumbTextTwo, breadcrumbUrl } = this.props;
-
+        let { pageTitle, breadcrumbTextOne, breadcrumbTextTwo, breadcrumbUrl } = props;
         return (
             <>
                 <div className="page-title-area page-title-bg2">
@@ -56,6 +54,3 @@ class PageHeader extends Component {
             </>
         );
     }
-}
-
-export default PageHeader;

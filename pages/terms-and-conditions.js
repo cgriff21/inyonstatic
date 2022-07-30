@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from '../components/Layout/Navbar';
 import PageHeader from '../components/Common/PageHeader';
 import TermsAndConditionsContent from '../components/TermsAndConditions/TermsAndConditionsContent';
 import Footer from '../components/Layout/Footer';
 
-class TermsAndConditions extends Component {
-    render() {
+export default function TermsAndConditions() {
+
         return (
             <>
                 <Navbar />
@@ -23,6 +23,3 @@ class TermsAndConditions extends Component {
             </>
         );
     }
-}
-
-export default TermsAndConditions;

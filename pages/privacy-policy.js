@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from '../components/Layout/Navbar';
 import PageHeader from '../components/Common/PageHeader';
 import PrivacyPolicyContent from '../components/PrivacyPolicy/PrivacyPolicyContent';
 import Footer from '../components/Layout/Footer';
 
-class PrivacyPolicy extends Component {
-    render() {
+export default function PrivacyPolicy() {
+
         return (
             <>
                 <Navbar />
@@ -23,6 +23,3 @@ class PrivacyPolicy extends Component {
             </>
         );
     }
-}
-
-export default PrivacyPolicy;

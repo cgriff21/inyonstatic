@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head'
 
 
-class Error extends Component {
-    render() {
+export default function Error() {
+
         return (
             <>
             <Head>
@@ -34,6 +34,3 @@ class Error extends Component {
             </>
         );
     }
-}
-
-export default Error;

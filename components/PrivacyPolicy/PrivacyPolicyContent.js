@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PrivacyPolicyContent extends Component {
-    render() {
+export default function PrivacyPolicyContent() {
+
         return (
             <div className="main-content ptb-80">
                 <div className="container">
@@ -26,6 +26,3 @@ class PrivacyPolicyContent extends Component {
             </div>
         );
     }
-}
-
-export default PrivacyPolicyContent;

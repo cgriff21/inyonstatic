@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class AboutArea extends Component {
-    render() {
+export default function About() {
         return (
             <>
                 <section className="about-area ptb-100" id='about'>
@@ -36,19 +35,15 @@ class AboutArea extends Component {
                             <div className="row justify-content-center">
                                 <div className="col-lg-6 col-md-6 col-sm-6">
                                     <div className="about-text">
-                                        <h3>Our Values</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore    </p>
-                                        
+                                        <h3>Our Values</h3>                                        
                                         <ul className="features-list">
                                             <li><i className="flaticon-tick"></i> Social Contribution</li>
                                             <li><i className="flaticon-tick"></i> Collective Impact</li>
                                             <li><i className="flaticon-tick"></i> Innovation</li>
                                             <li><i className="flaticon-tick"></i>Teamwork</li>
-                                            <li><i className="flaticon-tick"></i>Out Of The Box Thinking</li>
-                                            <li><i className="flaticon-tick"></i>Fun- We do our best work when we are engaged and having fun. We do what we love – and it shows.</li>
+                                            <li><i className="flaticon-tick"></i>We do what we love and it shows.</li>
                                             <li><i className="flaticon-tick"></i>Willingness to do whatever it takes to get the job done </li>
                                             <li><i className="flaticon-tick"></i>Work Life Balance</li>
-                                            <li><i className="flaticon-tick"></i>Gratitude-We are grateful for each other, our people, clients, partners and the communities we serve.</li>
                                             <li><i className="flaticon-tick"></i>Integrity: We do the right thing.</li>
 
                                         </ul>
@@ -57,35 +52,21 @@ class AboutArea extends Component {
 
                                 <div className="col-lg-6 col-md-6 col-sm-6">
                                     <div className="about-text">
-                                        <h3>Our Brand</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-                                        
+                                        <h3>Our Brand</h3>                                        
                                         <ul className="features-list">
                                             <li><i className="flaticon-tick"></i>Visionary</li>
                                             <li><i className="flaticon-tick"></i>Tech Saavy</li>
-                                            <li><i className="flaticon-tick"></i> 24/7 Global Operations</li>
-                                            <li><i className="flaticon-tick"></i> Client Facing Value Added</li>
+                                            <li><i className="flaticon-tick"></i> 24/7 Global Operations</li>                                            
+                                            <li><i className="flaticon-tick"></i>Out Of The Box Thinking</li>
                                             <li><i className="flaticon-tick"></i> Personal Touch</li>
                                             <li><i className="flaticon-tick"></i> Innovative Market Based Solutions</li>
+                                            <li><i className="flaticon-tick"></i> Client Facing Value Added</li>
                                             <li><i className="flaticon-tick"></i> Passionate Performance: We love What We Do And It Shows</li>
 
                                         </ul>
                                     </div>
                                 </div>
-{/* 
-                                <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <div className="about-text">
-                                        <h3>Industries</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-                                        
-                                        <ul className="features-list">
-                                            <li><i className="flaticon-tick"></i> Stay real. Always.</li>
-                                            <li><i className="flaticon-tick"></i> We have you covered</li>
-                                            <li><i className="flaticon-tick"></i> We turn heads</li>
-                                            <li><i className="flaticon-tick"></i> Your brand, promoted</li>
-                                        </ul>
-                                    </div>
-                                </div> */}
+
                             </div>
                         </div>
                     </div>
@@ -101,6 +82,3 @@ class AboutArea extends Component {
             </>
         );
     }
-}
-
-export default AboutArea;

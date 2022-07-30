@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Head from 'next/head'
 import Navbar from '../components/Layout/Navbar';
-import Banner from '../components/Home/Banner';
-import FeaturedServices from '../components/Home/FeaturedServices';
-import OurServices from '../components/Home/OurServices';
-import OurFeaturesTab from '../components/Common/OurFeaturesTab';
-import SubscribeStyleThree from '../components/Common/SubscribeStyleThree';
+import Banner from '../components/Layout/Banner';
+import OurInitiatives from '../components/Common/OurInitiatives';
+import OurIndustries from '../components/Common/OurIndustries';
+import Subscribe from '../components/Common/Subscribe';
 import Footer from '../components/Layout/Footer';
-import AboutArea from '../components/Common/AboutArea';
+import About from '../components/Common/About';
+import WhatWeDo from '../components/Common/WhatWeDo';
 
 
-class Index extends Component {
-    render() {
+export default function Home() {
         return (
             
             <> 
@@ -21,15 +20,12 @@ class Index extends Component {
             </Head>
                 <Navbar />
                 <Banner />
-                <AboutArea/>
-                <FeaturedServices />
-                {/* <OurServices /> */}
-                <OurFeaturesTab />
-                <SubscribeStyleThree />
+                <WhatWeDo />
+                <About/>
+                <OurIndustries />
+                <OurInitiatives />
+                <Subscribe />
                 <Footer />
             </>
         );
     }
-}
-
-export default Index;
