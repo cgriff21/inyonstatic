@@ -17,7 +17,6 @@ import { Provider } from 'react-redux';
 import App from 'next/app';
 import Head from 'next/head';
 import withRedux from 'next-redux-wrapper';
-import { initStore } from '../store/reducers/cartReducer';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 
