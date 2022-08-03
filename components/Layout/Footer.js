@@ -64,7 +64,7 @@ export default function Footer() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="https://isgstaffing.net/">Staffing</a>
+                                            <a href="https://inyonstaffing.com/">Staffing</a>
                                         </li>
                                         <li>
                                             <a href="https://login.wheniwork.com/">Employee Schedule</a>

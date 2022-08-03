@@ -12,15 +12,12 @@ import '../node_modules/react-modal-video/css/modal-video.min.css';
 
 import '../assets/css/style.css';
 import '../assets/css/responsive.css';
-
-import { Provider } from 'react-redux';
 import App from 'next/app';
 import Head from 'next/head';
-import withRedux from 'next-redux-wrapper';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 
-export default withRedux(initStore)(
+
     class MyApp extends App {
 
         // Preloader
@@ -38,7 +35,7 @@ export default withRedux(initStore)(
         }
         
         render () {
-            const { Component, pageProps, store } = this.props
+            const { Component, pageProps } = this.props
 
             return (
                 <>
@@ -47,9 +44,9 @@ export default withRedux(initStore)(
                         <title>Inyon Solutions</title>
                     </Head>
 
-                    <Provider store={store}>
+                    {/* <Provider> */}
                         <Component {...pageProps} />
-                    </Provider>
+                    {/* </Provider> */}
                     
                     {/* Preloader */}
                     <Loader loading={this.state.loading} />
@@ -60,4 +57,4 @@ export default withRedux(initStore)(
             );
         }
     }
-)
+ export default MyApp;

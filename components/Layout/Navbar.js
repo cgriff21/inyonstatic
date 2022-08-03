@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Image from 'next/image'
-import { connect } from 'react-redux';
 import Link from '../../utils/ActiveLink';
 
 class Navbar extends Component {
@@ -117,12 +116,7 @@ class Navbar extends Component {
     }
 }
 
-const mapStateToProps = (state)=>{
-    return{
-        products: state.addedItems
-    }
-}
 
-export default connect(mapStateToProps)(Navbar);
+export default Navbar;
 
 // export default Navbar;
