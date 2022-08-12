@@ -79,7 +79,7 @@ export default function Footer() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="https://www.indeed.com/cmp/Inyon-Solutions-Global/jobs">Careers</a>
+                                            <a href="https://inyonstaffing.zohorecruit.com/jobs/Careers">Careers</a>
                                         </li>
 
                                         <li>

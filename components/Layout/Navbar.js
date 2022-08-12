@@ -92,7 +92,7 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="https://indeed.com/cmp/Inyon-Solutions-Global/jobs" activeClassName="active">
+                                            <Link href="https://inyonstaffing.zohorecruit.com/jobs/Careers" activeClassName="active">
                                                 <a className="nav-link">Careers</a>
                                             </Link>
                                         </li>
