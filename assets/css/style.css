@@ -2529,6 +2529,7 @@ Services Area CSS
   transition: 0.5s;
   z-index: 1;
   text-align: center;
+  height: 90%;
 }
 
 .single-services-box .icon {

@@ -67,20 +67,40 @@ class Navbar extends Component {
                                                 <a className="nav-link">Home</a>
                                             </Link>
                                         </li>
-                                        
-                                        <li className="nav-item">
-                                            <Link href="https://inyonstaffing.com/" activeClassName="active">
-                                                <a className="nav-link">Staffing</a>
-                                            </Link>
-                                        </li>
-  
+                                      
                                         <li className="nav-item">
                                             <Link href="/#about" activeClassName="active">
-                                                <a className="nav-link">About</a>
+                                                <a className="nav-link">About Us</a>
+                                            </Link>
+                                        </li>
+                                        
+                                        <li className="nav-item">
+                                            <Link href="#services" activeClassName="active">
+                                                <a className="nav-link">Services</a>
+                                            </Link>
+                                        </li>
+                                        
+                                        <li className="nav-item">
+                                            <Link href="#industries" activeClassName="active">
+                                                <a className="nav-link">Industries</a>
                                             </Link>
                                         </li>
 
+                                        <li className="nav-item">
+                                            <Link href="https://indeed.com/cmp/Inyon-Solutions-Global/jobs" activeClassName="active">
+                                                <a className="nav-link">Careers</a>
+                                            </Link>
+                                        </li>
+                                        
+                                        <li className="nav-item">
+                                            <Link href="/contact" activeClassName="active">
+                                                <a className="nav-link">Contact</a>
+                                            </Link>
+                                        </li>
 
+  
+
+{/* 
                                         <li className="nav-item">
                                             <Link href="/">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -96,13 +116,8 @@ class Navbar extends Component {
                                                     <a className="nav-link" href="https://pdf.ac/8CBht">Employee Forms</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
 
-                                        <li className="nav-item">
-                                            <Link href="/contact" activeClassName="active">
-                                                <a className="nav-link">Contact</a>
-                                            </Link>
-                                        </li>
                                     </ul>
                                 </div>
                             </nav>

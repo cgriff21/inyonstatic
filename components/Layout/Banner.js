@@ -17,7 +17,7 @@ export default function Banner() {
                                         <p>Inyon Solutions Global (ISG) is an economic development company transforming communities worldwide by creating innovative business solutions to social challenges. </p>
 
                                         <div className="btn-box">
-                                            <Link href="/contact">
+                                            <Link href="#services">
                                                 <a className="default-btn">Get Started <span></span></a>
                                             </Link>
                                         </div>
