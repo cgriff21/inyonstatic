@@ -10,10 +10,10 @@ export default function OurIndustries() {
                             <h2>Our Industries</h2>
                         </div>
 
-                        <div className="tab features-list-tab">
+                        <div className="tab features-list-tab ">
                             {/* tabs Nav */}
-                            <ul className="tabs">
-                                <li>
+                            <ul className="tabs justify-content-center ">
+                                <li className='self-stretch'>
                                     <div className="bg-c679e3">
                                         <i className="icon-healthcare"></i>
                                         <span>Healthcare</span>
@@ -28,19 +28,19 @@ export default function OurIndustries() {
                                 <li>
                                     <div className="bg-eb6b3d">
                                         <i className="icon-public"></i>
-                                        <span>Public/Social Sector</span>
+                                        <span>State & Local Government</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="bg-00aeff">
                                         <i className="flaticon-analytics"></i>
-                                        <span>Financial Services</span>
+                                        <span>Non-Profit</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div onClick={(e) => e.preventDefault()}>
                                         <i className="icon-estate"></i>
-                                        <span>Real Estate</span>
+                                        <span>Real Estate & Property Management</span>
                                     </div>
                                 </li>
                                 <li>
@@ -49,12 +49,12 @@ export default function OurIndustries() {
                                         <span>Technology</span>
                                     </div>
                                 </li>
-                                {/* <li>
+                                <li>
                                     <div className="bg-f78acb">
                                         <i className="flaticon-data"></i>
                                         <span>Sustainability</span>
                                     </div>
-                                </li> */}
+                                </li>
                                 
                             </ul>
 

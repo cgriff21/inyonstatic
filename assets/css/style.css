@@ -3435,17 +3435,16 @@ Features Area CSS
   flex-wrap: wrap;
   margin-left: -5px;
   margin-right: -5px;
-  margin-bottom: 40px;
 }
 
 .features-list-tab .tabs li {
-  -ms-flex: 0 0 16.6666666667%;
+  -ms-flex: 0 0 30%;
   -webkit-box-flex: 0;
-  flex: 0 0 16.6666666667%;
-  max-width: 16.6666666667%;
+  flex: 0 0 30%;
   text-align: center;
   padding-right: 5px;
   padding-left: 5px;
+  padding-bottom: 10px;
 }
 
 .features-list-tab .tabs li div {

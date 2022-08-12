@@ -60,31 +60,31 @@ export default function Footer() {
                                         </li>
                                         <li>
                                             <Link href="/#about">
-                                                <a>About</a>
+                                                <a>About Us</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="https://inyonstaffing.com/">Staffing</a>
+                                            <Link href="/#services">
+                                                <a>Services</a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="https://login.wheniwork.com/">Employee Schedule</a>
+                                            <Link href="/#industries">
+                                                <a>Industries</a>
+                                            </Link>
                                         </li>
+                                        <li>
+                                            <Link href="/#social-impact">
+                                                <a>Social Impact</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.indeed.com/cmp/Inyon-Solutions-Global/jobs">Careers</a>
+                                        </li>
+
                                         <li>
                                             <Link href="/contact">
                                                 <a>Contact</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <a href="https://pdf.ac/8CBht">Employee Forms</a>
-                                        </li>
-                                        <li>
-                                            <Link href="/privacy-policy">
-                                                <a>Privacy Policy</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/terms-and-conditions">
-                                                <a>Terms and Conditions</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -102,7 +102,7 @@ export default function Footer() {
 
                                 <div className="col-lg-6 col-sm-6 col-md-6">
                                     <ul>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/terms-and-conditions">
                                                 <a>Terms & Conditions</a>
                                             </Link>
@@ -111,7 +111,7 @@ export default function Footer() {
                                             <Link href="/privacy-policy">
                                                 <a>Privacy Policy</a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>

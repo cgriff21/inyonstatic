@@ -3,7 +3,7 @@ import React from 'react';
 export default function OurInitiatives() {
         return (
             <>
-                <section className="featured-services-area ptb-100">
+                <section className="featured-services-area ptb-100" id="social-impact">
                     <div className="container">
                         <div className="section-title">
                             <span className="sub-title">Initiatives</span>
@@ -19,7 +19,7 @@ export default function OurInitiatives() {
                                     </div>
 
                                     <h3>Economic Inequality</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                                    <p></p>
 
                                     </div>
                             </div>
@@ -31,7 +31,7 @@ export default function OurInitiatives() {
                                     </div>
 
                                     <h3>Housing Affordability</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                                    <p></p>
 
                                     </div>
                             </div>
@@ -43,7 +43,7 @@ export default function OurInitiatives() {
                                     </div>
 
                                     <h3>Healthcare and wellness</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                                    <p></p>
 
                                     </div>
                             </div>
@@ -55,7 +55,7 @@ export default function OurInitiatives() {
                                     </div>
 
                                     <h3>Environmental Sustainability</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                                    <p></p>
 
                                     </div>
                             </div>
