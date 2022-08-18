@@ -34,7 +34,7 @@ export default function ContactInfo() {
                                     <i className="flaticon-marker"></i>
                                 </div>
                                 <h3>Call</h3>
-                                <p>+123 456 7890</p>
+                                <p>(760) 648-4715</p>
                             </div>
                         </div>
                     </div>

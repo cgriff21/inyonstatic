@@ -18,7 +18,7 @@ export default function Footer() {
                                             <i className="flaticon-phone-call"></i>
                                             <span>Mon to Fri : 10:00AM - 06:00PM</span>
                                            
-                                            <a href="tel:1235421457852">+123 54214 578 52</a>
+                                            <a href="tel:7606484715">(760) 648-4715</a>
                                         </li>
                                         <li>
                                             <i className="flaticon-email"></i>
