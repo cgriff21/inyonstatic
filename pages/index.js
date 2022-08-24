@@ -57,8 +57,8 @@ export default function Home() {
                 <WhatWeDo />
                 <About/>
                 <OurIndustries />
-                <CTA />
                 <OurInitiatives />
+                <CTA />
                 <Footer />
             </>
         );
