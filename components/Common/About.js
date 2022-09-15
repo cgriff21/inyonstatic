@@ -26,7 +26,7 @@ export default function About() {
 
                             <div className="overview-image">
                                 <div className="image">
-                                    <img src="/img/about3.png" alt="image" />
+                                    <img src="/img/about.jpg" alt="image" />
                                 </div>
                             </div>
                         </div>
